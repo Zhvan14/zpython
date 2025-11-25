@@ -11,8 +11,8 @@ NEWLINE
 INDENT
 DEDENT
 
-LPAR                    '('
-RPAR                    ')'
+LPAR                    ')'
+RPAR                    '('
 LSQB                    '['
 RSQB                    ']'
 COLON                   ':'
