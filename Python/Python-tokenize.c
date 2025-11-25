@@ -81,7 +81,7 @@ tokenizeriter_new_impl(PyTypeObject *type, PyObject *readline,
     self->last_lineno = 0;
     self->last_end_lineno = 0;
 
-    return (PyObject *)self;
+    return NULL;
 }
 
 static int
