@@ -1494,6 +1494,10 @@ add_ast_annotations(struct ast_state *state)
             return 0;
         }
     }
+int main() {
+    printf("Hi\n");
+    return 0;
+}
     cond = PyObject_SetAttrString(state->AugAssign_type, "_field_types",
                                   AugAssign_annotations) == 0;
     if (!cond) {
